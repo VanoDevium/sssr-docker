@@ -1,0 +1,32 @@
+{
+  "name": "sssr-docker",
+  "version": "0.0.1",
+  "description": "Automatic SEO optimization: get already rendered content of the page with Puppeteer and cache",
+  "keywords": [
+    "sssr",
+    "docker"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Vano Devium",
+    "email": "vano@devium.me",
+    "url": "https://www.devium.me"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon init.js"
+  },
+  "dependencies": {
+    "@koa/router": "~10.1.1",
+    "debug": "~4.3.2",
+    "dotenv": "~10.0.0",
+    "koa": "~2.13.4",
+    "koa-compress": "~5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "~2.0.14"
+  },
+  "optionalDependencies": {
+    "fsevents": "~2.3.2"
+  }
+}
